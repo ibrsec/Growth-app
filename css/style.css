@@ -8,6 +8,7 @@
   --bgc-white: #fff;
   --bgc-black: #000;
   --bgc-light-black: #111111;
+  --bgc-dark-gray: #DDDDDD;
   --link-color-black: #000;
   --linkhover-color: #4991ff;
   --font-color-black: #000;
@@ -28,12 +29,15 @@ body {
 /* !  */
 .container {
   max-width: 1100px;
-
   margin: auto;
-
   margin: 0 auto;
   padding: 0 1rem;
 }
+.container-tight{
+  max-width: 790px;
+  margin: auto;
+  }
+ 
 section {
   padding: 15px;
 }
@@ -72,11 +76,14 @@ section .container {
   background-color: var(--gray-btn);
   color: var(--gray-btn-color);
 }
+.dark-gray-btn{
+  background-color: var(--bgc-dark-gray);
+  color: var(--font-color-black);
+}
 .blue-btn {
   background-color: var(--blue-btn);
   color: var(--blue-btn-color);
 }
-
 .text-xxl {
   font-size: 3rem;
   font-weight: 600;
@@ -237,10 +244,7 @@ section.feedbacks {
 
 /* ? Pricing */
 
-.container-pricing{
-max-width: 790px;
-margin: auto;
-}
+
 
 
 .pricing .container h1 {
@@ -313,6 +317,92 @@ margin: auto;
 .pricing-footer-description {
   margin: 2rem 0;
 }
+
+
+
+/* ! questions */
+
+section.questions{
+
+}
+.questions h1{
+  text-align: center;
+
+}
+
+.question-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-buttons div {
+  background-color: var(--bgc-dark-gray);
+  flex-basis: 500px;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 10px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: .2rem; */
+
+
+
+}
+
+.question-buttons div button{
+  /* background-color: inherit; */
+
+}
+.question-answers{
+
+}
+.qa-cont{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--bgc-dark-gray);
+  
+}
+.q-cont{
+  
+}
+.q-cont p{
+  font-weight: 500;
+  width: 90%;
+  text-align: left;
+  margin-bottom: 3rem;
+  position: relative;
+
+
+
+}
+.q-cont p i{
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: .4s all ease;
+}
+
+.q-cont p i:hover{
+  opacity: .5;
+}
+
+.a-cont{
+  /* display: none; */
+}
+
+footer{
+
+  color: #fff;
+}
+footer a{
+color: #fff;
+}
+
+
+
 /* *********************************** */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -412,5 +502,19 @@ margin: auto;
 @media (max-width: 500px) {
   .text-xxl {
     font-size: 2rem;
+  }
+
+
+
+.question-buttons div {
+  
+  flex-basis: 150px;
+  justify-content: center;
+
+
+}
+
+  .question-buttons div button.dark-gray-btn{
+    display: none;
   }
 }
