@@ -601,6 +601,6 @@ footer .container {
   }
 
   .question-buttons div button.dark-gray-btn {
-    display: none;
+    /* display: none; */
   }
 }
