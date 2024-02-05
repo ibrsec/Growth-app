@@ -146,6 +146,73 @@ header .container {
   color: var(--blue-btn);
 }
 
+/* ! Menu */
+.menu{
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: -3px 0 30px black;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 2rem;
+  transform: translateX(500px);
+animation: hamgClose 1s forwards ease;
+
+  transition: .5s all ease;
+}
+
+
+@keyframes hamgClose{
+  from{
+    transform: translateX(0);
+
+  }
+  to{
+      transform: translateX(500px);
+    
+  }
+}
+
+.menu.open{
+  /* transform: translateX(0); */
+animation: hamgOpen 1s forwards ease;
+}
+@keyframes hamgOpen{
+  from{
+    transform: translateX(500px);
+
+  }
+  to{
+      transform: translateX(0);
+    
+  }
+}
+.menu a{
+  font-size: 1.2rem;
+  color: var(--font-color-black);
+  font-weight: 500;
+  transition: .5s all ease;
+}
+
+.menu a:hover{
+  font-size: 1.2rem;
+  color: var(--linkhover-color);
+}
+.menu button{
+  width: 100%;
+}
+.hamburger{
+  z-index: 10;
+}
+.hamburger:hover #hamburger-menu{
+  background-color: red;
+}
+
 /* ! Section hero */
 
 section.hero .container {
@@ -587,7 +654,11 @@ footer .container {
     align-items: center;
     justify-content: center;
   }
- 
+  .hamburger{
+    position: fixed;
+    top: 1.25rem;
+    right: 1.23rem;
+  }
 }
 
 @media (max-width: 500px) {
