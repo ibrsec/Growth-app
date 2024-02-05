@@ -4,13 +4,14 @@
 
 
 const hamburgerBtn = document.querySelector(".hamburger");
-const openMenu = document.getElementById("hamburger-menu");
+const hamburgerMenu = document.getElementById("hamburger-menu");
 const questionBtns = document.querySelectorAll(".question-buttons button");
 const qaContainers = document.querySelectorAll(".qa-cont");
 
 
 hamburgerBtn.addEventListener("click", function () {
-  openMenu.classList.toggle("open");
+  hamburgerMenu.classList.toggle("open");
+  hamburgerBtn.classList.toggle("open");
 });
 
 questionBtns.forEach((btn) => {

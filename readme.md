@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ibrsec/growth-app/">
-    <img src="images/logo.png" alt="Logo" width="200" >
+    <img src="images/logo-white.png" alt="Logo" width="200" >
   </a>
 
   <h3 align="center">Growth App</h3>

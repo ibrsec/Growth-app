@@ -665,7 +665,7 @@ footer .container {
     align-items: center;
     justify-content: center;
   }
-  .hamburger{
+  .hamburger.open{
     position: fixed;
     top: 1.25rem;
     right: 1.23rem;
