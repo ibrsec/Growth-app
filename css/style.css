@@ -181,6 +181,7 @@ animation: hamgClose 1s forwards ease;
 .menu.open{
   /* transform: translateX(0); */
 animation: hamgOpen 1s forwards ease;
+z-index: 9;
 }
 @keyframes hamgOpen{
   from{
@@ -416,6 +417,13 @@ section.questions {
   text-align: left;
   margin-bottom: 3rem;
   position: relative;
+  cursor: pointer;
+  transition: 0.4s all ease;
+
+}
+
+.q-cont p:hover {
+  opacity: 0.6;
 }
 .q-cont p i {
   position: absolute;
@@ -430,8 +438,11 @@ section.questions {
   opacity: 0.5;
 }
 
-.a-cont {
-  /* display: none; */
+.a-cont{
+  display: none;
+}
+.a-cont.open {
+  display: block;
 }
 
 footer {
@@ -658,6 +669,18 @@ footer .container {
     position: fixed;
     top: 1.25rem;
     right: 1.23rem;
+  }
+}
+@media(min-width:671px){
+  @keyframes hamgOpen{
+    from{
+      transform: translateX(0);
+  
+    }
+    to{
+        transform: translateX(500px);
+      
+    }
   }
 }
 
