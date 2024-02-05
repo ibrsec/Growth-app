@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ibrsec/growth-app/">
+  <a href="https://github.com/ibrsec/Growth-app/">
     <img src="images/logo-white.png" alt="Logo" width="200" >
   </a>
 
@@ -13,14 +13,14 @@
   <p align="center">
     An awesome Growth App project!
     <br />
-    <a href="https://github.com/ibrsec/growth-app"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ibrsec/Growth-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ibrsec.github.io/growth-app/">View Demo</a>
+    <a href="https://ibrsec.github.io/Growth-app/">View Demo</a>
     ·
-    <a href="https://github.com/ibrsec/growth-app/issues">Report Bug</a>
+    <a href="https://github.com/ibrsec/Growth-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ibrsec/growth-app/issues">Request Feature</a>
+    <a href="https://github.com/ibrsec/Growth-app/issues">Request Feature</a>
   </p>
 </div>
 
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![growth-app](./img/p.png)](https://ibrsec.github.io/growth-app/)
+[![growth-app](./images/p.gif)](https://ibrsec.github.io/Growth-app/)
 
 
 
@@ -65,8 +65,8 @@
 ---
 
 ## Figma 
-!!!   not figmayi yap
-<a href="https://www.figma.com/file/4vIk8df2tzq9ofwIXoMVfG/Untitled?type=design&node-id=0%3A1&mode=design&t=g0wWEIJIn5KpHnUf-1">Figma Link</a>
+
+<a href="https://www.figma.com/file/ZwMwavqSkBBYokApweSJcQ/Growth-App?type=design&node-id=0%3A1&mode=design&t=Yp7IbjDbyrONKJye-1">Figma Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,10 +78,13 @@
 ```
 Google-Learning (folder)
 |
-|----readme.md        
-|----img (folder)              
-|----index.html  
-|----style.css
+|----css (folder)
+      |----style.css       
+|----images (folder)  
+|----js (folder)
+      |----script.js            
+|----index.html
+|----readme.md
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,8 +96,9 @@ Google-Learning (folder)
 
 <!-- https://dev.to/envoy_/150-badges-for-github-pnk  search skills-->
 
-* <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-* <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=red"> 
+ <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=red"> 
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
 
 
 
