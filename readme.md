@@ -16,7 +16,7 @@
     <a href="https://github.com/ibrsec/Growth-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ibrsec.github.io/Growth-app/">View Demo</a>
+    <a href="https://growth-app-sigma.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/ibrsec/Growth-app/issues">Report Bug</a>
     ·
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![growth-app](./images/p.gif)](https://ibrsec.github.io/Growth-app/)
+[![growth-app](./images/p.gif)](https://growth-app-sigma.vercel.app/)
 
 
 
